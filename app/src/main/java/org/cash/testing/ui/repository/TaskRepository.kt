@@ -14,6 +14,13 @@ class TaskRepository {
                     description = "Revisar que no haya tareas pendientes en uamv",
                     priority = Priority.MEDIUM,
                     completed = false
+                ),
+                Task(
+                    id = 1,
+                    title = "Estudiar para finanzas - Kevin Browne",
+                    description = "Estudiar para el examen de finanzas del jueves",
+                    priority = Priority.HIGH,
+                    completed = false
                 )
             )
         )
